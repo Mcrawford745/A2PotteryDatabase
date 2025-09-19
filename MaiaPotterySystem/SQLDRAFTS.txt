@@ -1,0 +1,23 @@
+﻿CREATE TABLE [dbo].[Guest]
+(
+	[RecordNo]    INT           IDENTITY (10, 5) NOT NULL,
+    [GuestID]    AS            ('G'+right('000'+CONVERT([varchar](3),[RecordNo]),(3))) PERSISTED NOT NULL,
+	Forename NVARCHAR(50) NOT NULL,
+	Surname NVARCHAR(50) NOT NULL,
+	ContactNo INT NOT NULL,
+	HomeAddress NVARCHAR(50) NOT NULL,
+	SkillLevel NVARCHAR(12) NOT NULL
+	CONSTRAINT [GuestID] PRIMARY KEY CLUSTERED ([GuestID] ASC)
+
+
+CREATE TABLE [dbo].[Guest_Booking]
+(
+	[BookingNo]    INT           IDENTITY (100000, 25) NOT NULL,
+    [BookingID]    AS            ('BK'+right('000'+CONVERT([varchar](3),[BookingNo]),(3))) PERSISTED NOT NULL,
+	GuestID NVARCHAR NOT NULL,
+	CourseID NVARCHAR NOT NULL,
+    [DateBooked]   DATE          NOT NULL,
+	TimeBooked TIME NOT NULL
+	CONSTRAINT [PK_Guest_Booking] PRIMARY KEY CLUSTERED ([GuestID] ASC, [CourseID] ASC),
+    CONSTRAINT [FK_Guest_Booking to Course] FOREIGN KEY ([CourseID]) REFERENCES [dbo].[Course] ([CourseID]),
+	CONSTRAINT [FK_Guest_Booking to Guest] FOREIGN KEY ([GuestID]) REFERENCES [dbo].[Guest] ([GuestID])

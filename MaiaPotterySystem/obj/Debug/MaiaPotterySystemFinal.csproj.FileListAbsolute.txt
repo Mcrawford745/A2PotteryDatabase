@@ -1,0 +1,184 @@
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\MaiaPotterySystemFinal.csproj.AssemblyReference.cache
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\MaiaPotterySystemFinal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1.0.exe.config
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmArtworkViewer.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmCourseMainMenu.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmCourseManager.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmEnrolmentReport.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmExhibitionViewer.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmGetIDForCourseReport.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmGetIDForInvoice.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmGuestMenu.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmAddGuest.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmInvoiceViewer.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmLogEquipment.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmLogin.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmMainMenu.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmMaintainance.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmMakeBooking.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Forms.FrmPotteryMainMenu.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1._0.Properties.Resources.resources
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\MaiaPotterySystemFinal.csproj.GenerateResource.cache
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\MaiaPotterySystemFinal.csproj.CoreCompileInputs.cache
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1.0.exe
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\PotteryDBA_V1.0.pdb
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\x86\SqlServerSpatial160.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\x64\SqlServerSpatial160.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\PotteryDB.mdf
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\PotteryDB_log.ldf
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\PotteryDBA_V1.0.exe.config
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\PotteryDBA_V1.0.exe
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\PotteryDBA_V1.0.pdb
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\EnvDTE.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\stdole.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\done (final v i think)\obj\Debug\MaiaPotterySystemFinal.csproj.CopyComplete
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\x86\SqlServerSpatial160.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\x64\SqlServerSpatial160.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\PotteryDB.mdf
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\PotteryDB_log.ldf
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\PotteryDBA_V1.0.exe.config
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\PotteryDBA_V1.0.exe
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\PotteryDBA_V1.0.pdb
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\EnvDTE.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\stdole.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\MaiaPotterySystemFinal.csproj.AssemblyReference.cache
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\MaiaPotterySystemFinal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1.0.exe.config
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmArtworkViewer.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmCourseMainMenu.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmCourseManager.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmEnrolmentReport.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmExhibitionViewer.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmGetIDForCourseReport.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmGetIDForInvoice.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmGuestMenu.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmAddGuest.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmInvoiceViewer.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmLogEquipment.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmLogin.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmMainMenu.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmMaintainance.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmMakeBooking.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Forms.FrmPotteryMainMenu.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1._0.Properties.Resources.resources
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\MaiaPotterySystemFinal.csproj.GenerateResource.cache
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\MaiaPotterySystemFinal.csproj.CoreCompileInputs.cache
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\MaiaPotterySystemFinal.csproj.CopyComplete
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1.0.exe
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1.0.pdb
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\PotteryDBA_V1.0.exe.manifest
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\bin\Debug\PotteryDBA_V1.0.application
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1.0.exe.manifest
+C:\Users\Mcraw\Desktop\MaiaPotterySystem\obj\Debug\PotteryDBA_V1.0.application

@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props" Condition="Exists('packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F4715758-54F4-4D45-B2A4-A64F1C9A670A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PotteryDBA_V1._0</RootNamespace>
+    <AssemblyName>PotteryDBA_V1.0</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>C:\Users\Mcraw\Desktop\DBPotterySystemEXE\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8407A56F5FA04D3A55521A3D09D3291F3E96D2A8</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MaiaPotterySystemFinal_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.160.1000.6\lib\net462\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSets\AdvancedModeFetchArtworkInfo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdvancedModeFetchArtworkInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ArtworkIDAndSalePrice.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ArtworkIDAndSalePrice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\BookingManagerSetFromProcedure.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookingManagerSetFromProcedure.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\CourseDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CourseDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\CourseIDOptionsForReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CourseIDOptionsForReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DeleteGuestDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DeleteGuestDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\EnrolmentSetfromQuery.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EnrolmentSetfromQuery.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmArtworkViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmArtworkViewer.Designer.cs">
+      <DependentUpon>FrmArtworkViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCourseMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCourseMainMenu.Designer.cs">
+      <DependentUpon>FrmCourseMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCourseManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCourseManager.Designer.cs">
+      <DependentUpon>FrmCourseManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmEnrolmentReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmEnrolmentReport.Designer.cs">
+      <DependentUpon>FrmEnrolmentReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmExhibitionViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmExhibitionViewer.Designer.cs">
+      <DependentUpon>FrmExhibitionViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmGetIDForCourseReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmGetIDForCourseReport.Designer.cs">
+      <DependentUpon>FrmGetIDForCourseReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmGetIDForInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmGetIDForInvoice.Designer.cs">
+      <DependentUpon>FrmGetIDForInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmGuestMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmGuestMenu.Designer.cs">
+      <DependentUpon>FrmGuestMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmAddGuest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmAddGuest.Designer.cs">
+      <DependentUpon>FrmAddGuest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmInvoiceViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmInvoiceViewer.Designer.cs">
+      <DependentUpon>FrmInvoiceViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmLogEquipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLogEquipment.Designer.cs">
+      <DependentUpon>FrmLogEquipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMainMenu.Designer.cs">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMaintainance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMaintainance.Designer.cs">
+      <DependentUpon>FrmMaintainance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMakeBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMakeBooking.Designer.cs">
+      <DependentUpon>FrmMakeBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmPotteryMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmPotteryMainMenu.Designer.cs">
+      <DependentUpon>FrmPotteryMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\GuestDataSetForHalfTermTask.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GuestDataSetForHalfTermTask.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\InvoiceEquipmentDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvoiceEquipmentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Methods\Address.cs" />
+    <Compile Include="Methods\ArtworkDal.cs" />
+    <Compile Include="Methods\ExhibitionDal.cs" />
+    <Compile Include="Methods\NumericupDownWithpoundSign.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Methods\CommonMethods.cs" />
+    <Compile Include="Methods\CourseDal.cs" />
+    <Compile Include="Methods\GuestDal.cs" />
+    <Compile Include="Methods\ItemDal.cs" />
+    <Compile Include="DataSets\NormalModeFetchArtworkInfo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NormalModeFetchArtworkInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\PopulateAllExhibitions.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PopulateAllExhibitions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\PopulateFutureExhibitions.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PopulateFutureExhibitions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\PopulatePastExhibitions.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PopulatePastExhibitions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\PotteryDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PotteryDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataSets\RecentlySoldArtworkSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecentlySoldArtworkSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ViewGuestSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ViewGuestSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmArtworkViewer.resx">
+      <DependentUpon>FrmArtworkViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCourseMainMenu.resx">
+      <DependentUpon>FrmCourseMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCourseManager.resx">
+      <DependentUpon>FrmCourseManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmEnrolmentReport.resx">
+      <DependentUpon>FrmEnrolmentReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmExhibitionViewer.resx">
+      <DependentUpon>FrmExhibitionViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmGetIDForCourseReport.resx">
+      <DependentUpon>FrmGetIDForCourseReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmGetIDForInvoice.resx">
+      <DependentUpon>FrmGetIDForInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmGuestMenu.resx">
+      <DependentUpon>FrmGuestMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmAddGuest.resx">
+      <DependentUpon>FrmAddGuest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmInvoiceViewer.resx">
+      <DependentUpon>FrmInvoiceViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLogEquipment.resx">
+      <DependentUpon>FrmLogEquipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMainMenu.resx">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMaintainance.resx">
+      <DependentUpon>FrmMaintainance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMakeBooking.resx">
+      <DependentUpon>FrmMakeBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmPotteryMainMenu.resx">
+      <DependentUpon>FrmPotteryMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reports\EnrolmentV2.rdlc" />
+    <EmbeddedResource Include="Reports\GuestInvoice.rdlc" />
+    <EmbeddedResource Include="Reports\TestReport.rdlc" />
+    <None Include="DataSets\AdvancedModeFetchArtworkInfo.xsc">
+      <DependentUpon>AdvancedModeFetchArtworkInfo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AdvancedModeFetchArtworkInfo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AdvancedModeFetchArtworkInfo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\AdvancedModeFetchArtworkInfo.xss">
+      <DependentUpon>AdvancedModeFetchArtworkInfo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ArtworkIDAndSalePrice.xsc">
+      <DependentUpon>ArtworkIDAndSalePrice.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ArtworkIDAndSalePrice.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ArtworkIDAndSalePrice.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\ArtworkIDAndSalePrice.xss">
+      <DependentUpon>ArtworkIDAndSalePrice.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BookingManagerSetFromProcedure.xsc">
+      <DependentUpon>BookingManagerSetFromProcedure.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BookingManagerSetFromProcedure.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BookingManagerSetFromProcedure.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\BookingManagerSetFromProcedure.xss">
+      <DependentUpon>BookingManagerSetFromProcedure.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CourseDetails.xsc">
+      <DependentUpon>CourseDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CourseDetails.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CourseDetails.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\CourseDetails.xss">
+      <DependentUpon>CourseDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CourseIDOptionsForReport.xsc">
+      <DependentUpon>CourseIDOptionsForReport.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CourseIDOptionsForReport.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CourseIDOptionsForReport.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\CourseIDOptionsForReport.xss">
+      <DependentUpon>CourseIDOptionsForReport.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DeleteGuestDataSet.xsc">
+      <DependentUpon>DeleteGuestDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DeleteGuestDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DeleteGuestDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\DeleteGuestDataSet.xss">
+      <DependentUpon>DeleteGuestDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\EnrolmentSetfromQuery.xsc">
+      <DependentUpon>EnrolmentSetfromQuery.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\EnrolmentSetfromQuery.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EnrolmentSetfromQuery.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\EnrolmentSetfromQuery.xss">
+      <DependentUpon>EnrolmentSetfromQuery.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\GuestDataSetForHalfTermTask.xsc">
+      <DependentUpon>GuestDataSetForHalfTermTask.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\GuestDataSetForHalfTermTask.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GuestDataSetForHalfTermTask.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\GuestDataSetForHalfTermTask.xss">
+      <DependentUpon>GuestDataSetForHalfTermTask.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\InvoiceEquipmentDataSet.xsc">
+      <DependentUpon>InvoiceEquipmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\InvoiceEquipmentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InvoiceEquipmentDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\InvoiceEquipmentDataSet.xss">
+      <DependentUpon>InvoiceEquipmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\NormalModeFetchArtworkInfo.xsc">
+      <DependentUpon>NormalModeFetchArtworkInfo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\NormalModeFetchArtworkInfo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NormalModeFetchArtworkInfo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\NormalModeFetchArtworkInfo.xss">
+      <DependentUpon>NormalModeFetchArtworkInfo.xsd</DependentUpon>
+    </None>
+    <None Include="MaiaPotterySystemFinal_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="DataSets\PopulateAllExhibitions.xsc">
+      <DependentUpon>PopulateAllExhibitions.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PopulateAllExhibitions.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PopulateAllExhibitions.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\PopulateAllExhibitions.xss">
+      <DependentUpon>PopulateAllExhibitions.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PopulateFutureExhibitions.xsc">
+      <DependentUpon>PopulateFutureExhibitions.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PopulateFutureExhibitions.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PopulateFutureExhibitions.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\PopulateFutureExhibitions.xss">
+      <DependentUpon>PopulateFutureExhibitions.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PopulatePastExhibitions.xsc">
+      <DependentUpon>PopulatePastExhibitions.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PopulatePastExhibitions.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PopulatePastExhibitions.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\PopulatePastExhibitions.xss">
+      <DependentUpon>PopulatePastExhibitions.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PotteryDBDataSet.xsc">
+      <DependentUpon>PotteryDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PotteryDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PotteryDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\PotteryDBDataSet.xss">
+      <DependentUpon>PotteryDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\PotteryDBA_V1._0.Methods.RecentlySoldArtworksSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="DataSets\RecentlySoldArtworkSet.xsc">
+      <DependentUpon>RecentlySoldArtworkSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\RecentlySoldArtworkSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RecentlySoldArtworkSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\RecentlySoldArtworkSet.xss">
+      <DependentUpon>RecentlySoldArtworkSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\SystemUserGuide.pdf" />
+    <None Include="DataSets\ViewGuestSet.xsc">
+      <DependentUpon>ViewGuestSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ViewGuestSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ViewGuestSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\ViewGuestSet.xss">
+      <DependentUpon>ViewGuestSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PotteryDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PotteryDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>PotteryDB.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\Visible_Eye.PNG" />
+    <None Include="Resources\Not_Visible_Eye.PNG" />
+    <None Include="Resources\smiley_face_icon_143694.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props'))" />
+  </Target>
+</Project>
